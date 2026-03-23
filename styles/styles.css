@@ -1,0 +1,48 @@
+
+body {
+    font-family: "Gloria Hallelujah", sans-serif;
+    margin: 0;
+    padding: 0;
+    margin: 20px;
+    background-color: white;
+
+}
+header {
+  background: var(--accent1-color);
+  color: black;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 0.5rem 0;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+.hero {
+  color: black;
+  text-align: center;
+  padding: 4rem 1rem;
+}
+   ------------------------------------------------- */
+footer {
+  margin-top: auto;
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+}
+footer a {
+  color: var(--accent-color);
+}
