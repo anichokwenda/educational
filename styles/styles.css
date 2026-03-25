@@ -1,4 +1,18 @@
 
+
+:root {
+    --primary-color: #B1DDF1;
+    
+    --secondary_color: #9F87AF;
+    
+    --accent1-color: #614344;
+    
+    --accent2-color: #88527F;
+    
+    --heading-font: "Gloria Hallelujah", sans-serif;
+    --body-font: "Ancizar Serif", serif;
+}
+
 body {
     font-family: "Gloria Hallelujah", sans-serif;
     margin: 0;
@@ -7,6 +21,10 @@ body {
     background-color: white;
 
 }
+
+/* -------------------------------------------------
+   Header & navigation
+   ------------------------------------------------- */
 header {
   background: var(--accent1-color);
   color: black;
@@ -29,11 +47,75 @@ nav a {
 nav a:hover {
   text-decoration: underline;
 }
+
+/* -------------------------------------------------
+   Hero section
+   ------------------------------------------------- */
 .hero {
   color: black;
   text-align: center;
   padding: 4rem 1rem;
 }
+
+.hero h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+/* Button uses accent colour */
+.hero button {
+  background: yellow;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 4px;
+  color: black;
+}
+.hero button:hover {
+  background: green;   /* slightly darker on hover */
+}
+
+/* -------------------------------------------------
+   Content sections
+   ------------------------------------------------- */
+section {
+  max-width: 960px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+/* Section titles – primary colour */
+section h2 {
+  color: black;
+  font-size: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+
+/* Paragraphs & list items – body font */
+section p,
+section li {
+  margin-bottom: 0.75rem;
+}
+
+/* Links inside content – accent colour */
+section a {
+  color: darkblue;
+  text-decoration: underline;
+}
+section a:hover {
+  opacity: 0.85;
+}
+
+/* -------------------------------------------------
+   Wireframe links (stacked on mobile, inline on desktop)
+   ------------------------------------------------- */
+#wireframe p {
+  margin-bottom: 0.5rem;
+}
+
+/* -------------------------------------------------
+   Footer
    ------------------------------------------------- */
 footer {
   margin-top: auto;
@@ -45,4 +127,574 @@ footer {
 }
 footer a {
   color: var(--accent-color);
+}
+
+/* -------------------------------------------------
+   Responsive tweaks
+   ------------------------------------------------- */
+@media (max-width: 768px) {
+  /* Mobile navigation – vertical */
+  nav ul {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
+
+@media (min-width: 769px) {
+  /* Desktop navigation – right aligned */
+  nav ul {
+    justify-content: flex-end;
+    padding-right: 2rem;
+  }
+
+  /* Hero gets larger padding & heading */
+  .hero {
+    padding: 5px;
+  }
+  .hero h1 {
+    font-size: 3rem;
+  }
+
+  /* Two‑column layout for purpose & scenarios */
+  #site-purpose,
+  #scenarios {
+    display: flex;
+    gap: 2rem;
+  }
+  #site-purpose > p,
+  #scenarios > ul {
+    flex: 1;
+  }
+
+  /* Wireframe links side‑by‑side */
+  #wireframe p {
+    display: inline-block;
+    margin-right: 1.5rem;
+  }
+}
+
+main {
+    padding: 2em;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.hero {
+    position: relative;
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.hero img {
+    width: 100%;
+    max-height: 350px;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+}
+
+.home-info-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.home-events, .current-weather, .weather-forecast {
+    flex: 1;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+}
+
+.home-events h2, .current-weather h2, .weather-forecast h2{
+    margin-top: 0;
+}
+
+.call-to-action {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--secondary-color);
+    padding: 0.8em 2em;
+    border-radius: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+}
+
+.call-to-action a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+section {
+    margin-bottom: 2em;
+}
+
+section h2 {
+    color: var(--accent2-color);
+    font-family: var(--heading-font);
+    margin-bottom: 0.6em;
+}
+
+/* Weather */
+.weather #weather-data {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 1em;
+    border-radius: 8px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.07);
+}
+
+/* Spotlights */
+.spotlights {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+#spotlights-container {
+    display: flex;
+    gap: 1em;
+    flex-wrap: wrap;
+}
+
+.spotlight-card {
+    background-color: lavender;
+    border: 1px solid var(--accent1-color);
+    border-radius: 8px;
+    padding: 1em;
+    flex: 1 1 200px;
+    min-width: 200px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+    text-align: center;
+}
+
+.spotlight-card img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    margin-bottom: 0.5em;
+}
+
+/* Members Grid/List */
+#members-container {
+    margin-top: 1em;
+}
+
+.grid-view {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1em;
+}
+
+.list-view {
+    display: block;
+}
+
+.member-card {
+    background-color: #fff;
+    padding: 1em;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    margin-bottom: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.07);
+
+}
+
+.member-card img {
+    width: 60px;
+    height: 100px;
+    object-fit: contain;
+    margin-bottom: 0.5em;
+}
+
+.member-card h3 {
+    margin: 0.2em 0 0.4em;
+    color: var(--accent1-color);
+}
+
+.member-card a {
+    color: var(--accent2-color);
+}
+
+/* Events Section */
+.events {
+    background: #fff;
+    padding: 1em;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.07);
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+    text-align: center;
+    font-size: 0.95em;
+    margin-top: 2em;
+    border-radius: 0 0 12px 12px;
+}
+
+footer a {
+    color: yellow;
+    text-decoration: underline;
+}
+
+.membership-level{
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.thank-you-info {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 600px;
+    margin: auto;
+}
+.thank-you-info h2{
+    text-align: center;
+    margin-bottom: 1.5em;
+}
+#join-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#join-form button{
+    align-self: center;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 1em;
+    background-color: green;
+    color: white;
+}
+
+#join-form button:hover {
+    background-color: green;
+}
+#user-info {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#user-info li {
+    margin-bottom: 10px;
+}
+
+#user-info li strong {
+    font-weight: bold;
+}
+
+/* Membership cards with animation */
+.membership-card {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    margin-top: 2em;
+    justify-content: center;
+}
+.membership-card {
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1em;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 0.6s forwards;
+}
+
+/* Animation for cards */
+.animate-card {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 0.6s forwards;
+}
+
+/* Delayed animations */
+.animate-card:nth-child(1) { animation-delay: 0.1s; }
+.animate-card:nth-child(2) { animation-delay: 0.2s; }
+.animate-card:nth-child(3) { animation-delay: 0.3s; }
+.animate-card:nth-child(4) { animation-delay: 0.4s; }
+
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.grid-container {
+    display: grid;
+    grid-template-areas:
+        'card1'
+        'card2'
+        'card3'
+        'card4'
+        'card5'
+        'card6'
+        'card7'
+        'card8';
+    gap: 1rem;
+    padding: 1rem;
+}
+
+@media (min-width: 641px) and (max-width: 1024px) {
+    .grid-container {
+        grid-template-areas:
+            'card1 card2'
+            'card3 card4'
+            'card5 card6'
+            'card7 card8';
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 1025px) {
+    .grid-container {
+        grid-template-areas:
+            'card1 card2 card3 card4'
+            'card5 card6 card7 card8';
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+.card {
+    background-color: #f0f0f0;
+    padding: 1rem;
+    border: 1px solid #ddd;
+}
+
+.card h2 {
+    margin-top: 0;
+}
+
+.card figure img {
+    width: 150px;
+    height: 100px;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+@media (min-width: 641px) {
+    .card figure img:hover {
+        transform: scale(1.05);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    }
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content {
+    background-color: white;
+    margin: 10% auto;
+    padding: 20px;
+    border-radius: 8px;
+    width: 80%;
+    max-width: 500px;
+    position: relative;
+    animation: modalopen 0.3s;
+}
+
+@keyframes modalopen {
+    from {opacity: 0; transform: translateY(-50px);}
+    to {opacity: 1; transform: translateY(0);}
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    line-height: 1;
+}
+
+.close:hover {
+    color: black;
+}
+/* Mobile Menu */
+#menu-list {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    z-index: 100;
+}
+
+#menu-list.show {
+    display: flex;
+}
+
+#menu-list li {
+    width: 100%;
+    text-align: center;
+}
+
+#menu-list a {
+    display: block;
+    padding: 1em;
+    color: white;
+    text-decoration: none;
+    border-bottom: 1px solid #555;
+}
+
+#menu-list a:hover {
+    background-color: #555;
+}
+
+
+@media (min-width: 540px) {
+    #menu-list {
+        display: flex !important;
+        position: static;
+        flex-direction: row;
+        width: auto;
+        background-color: transparent;
+        box-shadow: none;
+        margin-left: auto;
+    }
+    
+    #menu-list li {
+        width: auto;
+        text-align: left;
+        border-bottom: none;
+    }
+    
+    #menu-toggle {
+        display: none;
+    }
+}
+
+@media (max-width: 540px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+    }
+    main,
+    .home-info-container,
+    .spotlights,
+    #spotlights-container,
+    header,
+    footer {
+        width: 100%;
+        max-width: 100%;
+        margin: 0;
+        padding: 0.5em;
+        box-sizing: border-box;
+    }
+    .home-info-container {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .home-events,
+    .current-weather,
+    .weather-forecast {
+        margin: 0 0 1em 0;
+        width: 100%;
+    }
+    .spotlights,
+    #spotlights-container {
+        flex-direction: column;
+        gap: 1em;
+    }
+    .grid-view {
+        grid-template-columns: 1fr;
+    }
+}
+@media (max-width: 1025px){
+    #members-container{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media (max-width: 768px){
+    #members-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-width: 500px) {
+    .grid-view {
+        grid-template-columns: 1fr;
+    }
+    .spotlights, #spotlights-container {
+        flex-direction: column;
+    }
+    #members-container{
+        grid-template-columns: 1fr;
+    }
+}
+
+#members-container img:hover{
+    transform: scale(1.05);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    }
+
+.marquee {
+    overflow: hidden;
+    white-space: nowrap;
+    animation: marquee 10s linear infinite;
+}
+
+@keyframes marquee {
+    0% {transform: translateX(100%);}
+    100% {transform: translateX(-100%);}
+}
+
+/* Membership cards with animation */
+.membership-cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1em;
+    margin-top: 2em;
+    justify-content: center;
+}
+
+/* Desktop view - 2 columns */
+@media (min-width: 768px) {
+    .membership-cards {
+        grid-template-columns: 1fr 1fr;
+    }
 }
