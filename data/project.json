@@ -1,85 +1,118 @@
-
-{    
-    "members": [
-  {
-    "name": "Mixue Ice Cream & Tea",
-    "address": "China",
-    "phone": "03-97671008 ",
-    "website": "https://mixue.asia/#google_vignette", 
-         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/20250614_Mixue_Headquarters_03.jpg/250px-20250614_Mixue_Headquarters_03.jpg",               
-    "membershipLevel": 3,
-    "description": "The Mixue franchise is a highly successful franchise with over 21,582 outlets as of October 2022, surpassing other well-known brands such as Burger King and Domino’s Pizza."
-  },
-  {
-    "name": "Chooks-to-Go",
-    "address": "Phillipines",
-    "phone": "09437069873",
-    "website":"https://chookstogo.com.ph/downtime",
-    "image": "https://upload.wikimedia.org/wikipedia/en/3/3c/Official_Chooks-to-Go_2_Liner_Logo.jpg ",
-    "membershipLevel": 2,
-    "description": "Chooks-to-Go is a chain of stores owned by Bounty Agro Ventures, Inc. (BAVI), a privately owned company operating in the Philippines. It offers roast chicken and processed meat for take-out"
-  },
-  {
-    "name": "Steers",
-    "address": "South Africa",
-    "phone": "+27115544776",
-    "website": "http://www.steers.co.za/",
-    "image": " https://upload.wikimedia.org/wikipedia/en/thumb/1/1e/Steers_Logo.jpg/250px-Steers_Logo.jpg",
-    "membershipLevel": 1,
-    "description": "Steers is a South African quick-service restaurant brand, serving burgers and chips. Other menu items include chicken burgers, ribs, ice cream, milkshakes, chicken and salads."
-  },
-  {
-    "name": "Greggs",
-    "address": "Quorum Business Park, Newcastle",
-    "phone": "0191 281 7721",
-    "website": "http://greggs.co.uk/",
-    "image": " https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Greggs_store_front.jpg/250px-Greggs_store_front.jpg",
-    "membershipLevel": 5,
-    "description": "Greggs plc is a British bakery chain. It specialises in 'on-the-go' savoury products such as baked goods, sausage rolls, sandwiches and sweet items including doughnuts and vanilla slices."
-  },
-  {
-    "name": "Wimpy",
-    "address": "Johannesburg, South Africa",
-    "phone": "08600 WIMPY (94 679)",
-    "website": "http://wimpy.uk.com/",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Logo_of_Wimpy.svg/250px-Logo_of_Wimpy.svg.png",
-    "membershipLevel": 5,
-    "description": "Wimpy is a fast-food casual dining chain that was founded in the United States."
-  },
-  {
-    "name": "Hesburger",
-    "address": "Finland",
-    "phone": "+358 2 4808 9000",
-    "website": "http://www.hesburger.com/",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Hesas_by_Augustas_Didzgalvis.jpg/250px-Hesas_by_Augustas_Didzgalvis.jpg",
-    "membershipLevel": 3,
-    "description": "Hesburger (colloquially known in Finland as Hese and in Estonia as Hess) is a fast food chain based in Turku, Finland."
-  },
-  {
-    "name": "Waffle House",
-    "address": "United States",
-    "phone": "helpdesk@wafflehouse.com.",
-    "website": "https://wafflehouse.com/",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Waffle_House_Logo.svg/250px-Waffle_House_Logo.svg.png ",
-    "membershipLevel": 3,
-    "description": "Waffle House, Inc. is an American restaurant chain with over 2,000 locations in 25 states in the United States."
-  }
- 
+{
+  "members": [
+    {
+      "name": "Rabbits",
+      "address": "United States",
+      "phone": "03-97671008",
+      "website": "http://127.0.0.1:5500/discover.html",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBBebRWk8_xmjD8xsnoNdrkC5gVlJJIVEfNA&s",
+      "membershipLevel": 3,
+      "description": "Good meat for healthy eating"
+    },
+    {
+      "name": "Poultry",
+      "address": "Phillipines",
+      "phone": "09437069873",
+      "website": "http://127.0.0.1:5500/discover.html",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTHM-GWP18vLwJ4CrQhgFtUX4CexgaFvpBTVSHi-iYWg&s",
+      "membershipLevel": 2,
+      "description": "Consistency bring about more profits"
+    },
+    {
+      "name": "Vegetable farming",
+      "address": "South Africa",
+      "phone": "+27115544776",
+      "website": "http://127.0.0.1:5500/discover.html",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoz_qlsM586QjjPrpIczvIMlAO_X9Ye_BesXVsoa95kQ&s",
+      "membershipLevel": 1,
+      "description": "Vegetables brings color, variety and the zeal to eat"
+    },
+    {
+      "name": "Greggs Gardening",
+      "address": "Quorum Business Park, Newcastle",
+      "phone": "0191 281 7721",
+      "website": "http://127.0.0.1:5500/discover.html",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSEGo39v5TTeRZtoKUdhRV9TTqi1NTwXlfzw&s",
+      "membershipLevel": 5,
+      "description": "Gardening brings money and a lot of muscles"
+    },
+    {
+      "name": "Baking",
+      "address": "Johannesburg, South Africa",
+      "phone": "+277888888",
+      "website": "http://127.0.0.1:5500/discover.html",
+      "image": "https://img.freepik.com/free-photo/dough-is-being-prepared-bowl_329181-17870.jpg?semt=ais_hybrid&w=740&q=80",
+      "membershipLevel": 5,
+      "description": "Everyday, customers are buying bread, demand is high and supply is needed"
+    },
+    {
+      "name": "Gardening",
+      "address": "Finland",
+      "phone": "+358 2 4808 9000",
+      "website": "http://127.0.0.1:5500/discover.html",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSEGo39v5TTeRZtoKUdhRV9TTqi1NTwXlfzw&s",
+      "membershipLevel": 3,
+      "description": "Green vegetation enlightens the soul and the pockets"
+    },
+    {
+      "name": "Happy Gardens",
+      "address": "United States",
+      "phone": "",
+      "website": "http://127.0.0.1:5500/discover.html",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_LJGyB8QxIaxRkoRY8ZUVV1I-OsIm36aRNQ&s",
+      "membershipLevel": 3,
+      "description": "If you smile, you receive a good reward"
+    }
   ],
 
-    "discoverItems": [
-     
-        {"name": "American Cuisines", "address": "America", "description": "From hearty breakfasts to iconic dinners, America's culinary landscape is as diverse as its people. Staple food of America not only fills plates but also tells the story of a nation built on diverse traditions, regional influences, and passionate innovation", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRG1z0ET6H34aFH7HwarSzpvV3N25Vi30jtqA&s"},
-        {"name": "Sadza", "address": "Zimbabwe", "description": "Sadza is the Zimbabwean staple food. It is also a staple food in southern and east Africa. Ingredients: 3 Cups Hot Water (divided),1 Cup Cold Water,2.5 Cups Maize (or millet or sorghum). Method: Put mealie-meal in pot. Add cold water to make a paste. Put pot on stove and add boiling water whilst stirring simultaneously. Keep stirring until rakukwata (it's boiling). Cover pot, reduce heat and let it simmer for 15 minutes. After 15 minutes, add more mealie-meal bit by bit and as we say it in our vernacular, mona sadza (mix). Be sure to do it well. When it's just about to reach the consistency you want, cover it rishinyire (loosely translated- let is simmer) for 5 minutes. Your sadza is ready. Serve with your preferred relish.", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSy_Z_XjwMsAk4hxZC1otn-oiHk1F8DxhtrXA&s"},
-        {"name": "Jollof Rice", "address": "West Africa", "description":" Jollof Rice is a dish that's cooked to perfection, and it is curated to bring you the brightly colored orange/red dish with the most tantalizing spices and flavor. Ingredients:6 Garlic Cloves, 1 Bell Pepper: We used half of red and half of orange ,2 Cans (14.5 Oz.) Diced Tomatoes , Shrimp Powder, ¼ Cup Water: To blend the garlic and onions, 1 Cup Canola Oil ,6 Oz. Tomato Paste, 1 Cup Water ,1 Tbsp. Ginger Powder, 2 Tbsp. Dry Shrimp Powder (Optional, 2 ½ Tsp. Curry Powder , 5 Cups Jasmine Rice; Washed, 3 Bay Leaves", "image": "https://www.savorythoughts.com/wp-content/uploads/2022/02/Ghanaian-Jollof-Rice-Savory-Thoughts-9-480x270.jpg"},
-        {"name": "Mexican Empanadas", "address": "Mexico", "description": "Empanadas are baked or fried turnovers made of a folded pastry dough filled with various ingredients like meat, cheese, vegetables, or fruit. They are common in Spain, Latin America, and other parts of the world, with variations in dough and fillings depending on the region.", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYQ418oEusbFb9p4T4lDSQgdJdWNSiARbMKuHlwYY4ojw5dMw&s"},
-        {"name": "Ramen", "address": "Asian", "description": "Ramen. The premise for ramen is deceptively simple: soup stock, flavorings, seasonings, wheat noodles and toppings (usually fatty pork and vegetables.", "image": "http://t1.gstatic.com/images?q=tbn:ANd9GcSiryE0FLjWUmMjOXr9RrY7Uy_rCC1yIQJNMQqijA9uZFSfcDWC"},
-        {"name": "Mochi", "address": "China", "description": "Mochi is a sweet, chewy rice treat that hails from Japan. Serve these small, sweet cakes with a matcha hot chocolate or simply green tea. Use your leftover glutinous rice flour to make tang yuan, Chinese glutinous rice balls served for Lunar New Year that are similar to mochi (and are delicious year-round).", "image": "https://hips.hearstapps.com/hmg-prod/images/mochipin-1658261590.jpg?crop=1xw:0.9453781512605042xh;center,top"},
-        {"name": "Indian Butter Chicken", "address": "India", "description": "Butter chicken is one of the most popular dishes at most Indian restaurants, and for good reason. This chicken recipe uses deeply flavored chicken thighs, simmered in an ultra-silky and aromatic sauce of tomatoes, cream, and cashews. Spoon this dish over steamed rice or serve with warm naan for the perfect dinner.", "image": "https://hips.hearstapps.com/hmg-prod/images/butter-chicken-pin-1671471229.jpg?crop=0.860xw:0.728xh;0.0267xw,0.169xh"},
-        {"name": "Beef bourguignon", "address": "France", "description": "Beef bourguignon or bœuf bourguignon, also called beef Burgundy, and bœuf à la Bourguignonne, is a French stew of beef braised in red wine, often red Burgundy, and beef stock, typically flavored with carrots, onions, garlic, and a bouquet garni, and garnished with pearl onions and mushrooms.", "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRrzqZhcZqThchHta4j7wYyOMSu776DQevIST4-SZqVpzyrq_lJfy4CjIavp1lUYMVLWxy3yn6y-eAnfV8pdWaZKQho6tbywOUrk-52ashL"}
-
+  "discoverItems": [
+    {
+      "name": "American Vegetables",
+      "address": "America",
+      "description": "From hearty breakfasts to iconic dinners, America's are healthy and balances the diet",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoz_qlsM586QjjPrpIczvIMlAO_X9Ye_BesXVsoa95kQ&s"
+    },
+    {
+      "name": "Rabbits",
+      "address": "Zimbabwe",
+      "description": "Rabbits are classified as white meat and the demand is high since very few Zimbabwean farmers rears them.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBBebRWk8_xmjD8xsnoNdrkC5gVlJJIVEfNA&s"
+    },
+    {
+      "name": "Chickens",
+      "address": "South Africa",
+      "description": "Chickens are easy to grow especially the 6 weeks broiler chickens. The demand is high since most foods have chicken meat.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTHM-GWP18vLwJ4CrQhgFtUX4CexgaFvpBTVSHi-iYWg&s"
+    },
+    {
+      "name": "Mexican Empanadas",
+      "address": "Mexico",
+      "description": "Empanadas are baked or fried turnovers made of a folded pastry dough filled with various ingredients like meat, cheese, vegetables, or fruit. ",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYQ418oEusbFb9p4T4lDSQgdJdWNSiARbMKuHlwYY4ojw5dMw&s"
+    },
+    {
+      "name": "Baking",
+      "address": "Asian",
+      "description": "Baked food sells faster and learning how to can be easy by using the internet to learn recipes and ingredients needed in order to generate income.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8KyB48wVAZ_txvseduZmGFnyAH-Xgv0-RTQ&s"
+    },
+    {
+      "name": "Poultry",
+      "address": "China",
+      "description": "Eggs are a delicacy. Demand is high since they are affordable .",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWyaNVoxRAyOmjxBdssO8vnpuYnjRGclzdxw&s"
+    },
+    {
+      "name": "Agronomy",
+      "address": "Zimbabwe",
+      "description": "Agronomy is what feeds the nation of Zimbabwe and profits are enjoyed if farmers have strategi plans",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTus08cP-4fRFmB08Vbwm_zjQpsNQd8OMnRDZjqt0j-NA&s"
+    },
+    {
+      "name": "Smile gardening",
+      "address": "Zambia",
+      "description": "Gardening brings produtivity in the home. ",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_LJGyB8QxIaxRkoRY8ZUVV1I-OsIm36aRNQ&s"
+    }
   ]
-
-
-
 }

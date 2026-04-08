@@ -698,3 +698,28 @@ footer a {
         grid-template-columns: 1fr 1fr;
     }
 }
+
+
+figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+figure img {
+    width: 30%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+figcaption {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: var(--primary-color);
+    color: #333;
+    border-radius: 0 0 10px 10px;
+
+}
